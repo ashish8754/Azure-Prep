@@ -1,0 +1,72 @@
+
+
+Azure Cloud Fundamentals
+		
+	
+	Features of cloud computing	:
+		-High Availability :- Capability of having several VMs which can kick in to speed up the process requests
+		-Fault tolerance :- How azure will make sure that we get zero downtime for the services provided by azure
+		-Disaster Recovery :- In case of natural disasters how azure will make sure that the all the data and services are recovered using time-to-recovery and recovery point metrics.
+		-Scalability :- Scaling up or down based on reuqirement.
+		-Elasticity :-ability to quickly increase or decrease the processing power and resources .
+		-Agility :- ability to rapidly develop, test and deploy applications
+		
+	Capital Expenditure(CAPEX): cost occured to the organisation for getting fixed asset resources like land , buildings etc.
+	Operational Expenditure(OPEX): running cost occured to company for running a service , business or system on a daily basis Ex-Electricity bill, hosting charges ,printer costs ,etc.
+	
+	Azure follows Consumption based pricing model :
+		-Pay per execution - Pay only for the no of times the request is sent to the servers
+		-pay per second - pay for the resources for the time period used
+		-Usually a combination of the 2 are taken by the companies
+		-This pricing model is one of the major reasons for companies to switch to cloud as it reduces their CAPEX and OPEX significantly.
+		
+	Cloud Service Models:
+		-Infrastructure as a Service (IaaS)
+			-Here infra like servers and VMs are provided by the cloud provider
+			-no need to buy hardware 
+			-Scaling is much faster
+		
+		-Platform as a Service(PaaS)
+			-Superset of IaaS with middleware softwares and other relevant tools
+			-Supports the complete Web Development Cycle
+			-For a consumer it removes the hassle of maintaining all the softwares needed, they only need to focus on the work and all the rest will be handled by Azure.
+			
+		-Software as a Service(SaaS)
+			-Providing complex softwares as a service
+			-user only need to pay access fee 
+			-no maintaining required and also always have access to latest features.
+			-Ex- Office 365 ,Outlook,etc.
+			
+		Serverless
+			-Means youy dont have your own servers instead your applications are being deployed on some other servers
+			-this allows a single function to be hosted , deployed , run and managed on its own.
+			
+			
+	
+	Cloud Architecture models
+		
+		Private
+			-Personal cloud only accessible to the relevant people allowed
+			Pros
+				-Better Security and privacy
+				-Complete contrtol of the infrastructure
+				-Features of a public cloud
+			Cons
+				-Maintainance has to be done by the customer which again becomes similar to owning their own data centres.
+				
+		Public Cloud
+			- Azure, AWS ,GCP- basically cloud provided by cloud providers
+			Pros
+				-no need to buy infra since its being provide by the cloud provider
+				-low maintainnace fees
+			Cons
+				-No control over the features and versions
+				-no physical access
+				
+		Hybrid Cloud
+			-Combination of public and private
+			-Avoid disruptions and outages
+			-Adhere to regulations, governance ,etc
+			-Have access to both private and public cloud base on the design
+			-Only downside is that the architecture is very complex to design, but if done properly hybrid is the best model
+			
